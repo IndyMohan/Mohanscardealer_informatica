@@ -1,0 +1,114 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Electric cars</title>
+
+    <!-- Link Swiper's CSS -->
+    <link rel="stylesheet" href="swiper.css">
+
+    <link rel="stylesheet" href="cars.js">
+    <link rel="stylesheet" href="cars.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600&display=swap" rel="stylesheet">
+
+</head>
+<body>
+    <div class="navbar">
+        <img src="Remove background project.png" alt="logo">
+        <ul>
+         <li><a href="C:\Users\indyk\Code\Landing\landing.html">Home</a></li>
+         <li><a href="">Cars</a></li>
+         <li><a href="C:\Users\indyk\Code\contact\contact.html">Contact</a></li>
+         <li><a href="C:\Users\indyk\Code\more\more.html">More</a></li>
+        </ul>
+     </div>
+
+    <section class="main swiper mySwiper">
+        <div class="wrapper swiper-wrapper">
+            <div class="slide swiper-slide">
+                <img src="car1.jpg.jpg" alt="" class="image">
+                <div class="image-data">
+                    <span class="text">€50,000</span>
+                    <h2>polestar 2</h2>
+                    <a href="C:\Users\indyk\Code\compare-page\compare.html" class="button">Compare Car</a>
+                </div>
+            </div>
+            <div class="slide swiper-slide">
+                <img src="car2.jpg.jpg" alt="" class="image">
+                <div class="image-data">
+                    <span class="text">€125,000</span>
+                    <h2>bmw 7 series</h2>
+                    <a href="C:\Users\indyk\Code\compare-page\compare.html" class="button">Compare Car</a>
+                </div>
+            </div>
+            <div class="slide swiper-slide">
+                <img src="car3.jpg.jpg" alt="" class="image">
+                <div class="image-data">
+                    <span class="text">€84,000</span>
+                    <h2>range rover velar</h2>
+                    <a href="C:\Users\indyk\Code\compare-page\compare.html" class="button">Compare Car</a>
+                </div>
+            </div>
+            <div class="slide swiper-slide">
+                <img src="car4.jpg.jpg" alt="" class="image">
+                <div class="image-data">
+                    <span class="text">€95,000</span>
+                    <h2>Tesla model S</h2>
+                    <a href="C:\Users\indyk\Code\compare-page\compare.html" class="button">Compare Car</a>
+                </div>
+            </div>
+            <div class="slide swiper-slide">
+                <img src="car5.jpg" alt="" class="image">
+                <div class="image-data">
+                    <span class="text">€70,000</span>
+                    <h2>audi e-tron</h2>
+                    <a href="C:\Users\indyk\Code\compare-page\compare.html" class="button">Compare Car</a>
+                </div>
+            </div>
+            <div class="slide swiper-slide">
+                <img src="car6.jpg" alt="" class="image">
+                <div class="image-data">
+                    <span class="text">€97,000</span>
+                    <h2>porsche taycan</h2>
+                    <a href="C:\Users\indyk\Code\compare-page\compare.html" class="button">Compare Car</a>
+                </div>
+            </div>
+            <div class="slide swiper-slide">
+                <img src="car7.jpg.jpg" alt="" class="image">
+                <div class="image-data">
+                    <span class="text">€85,000</span>
+                    <h2>Mercedes-benz</h2>
+                    <a href="C:\Users\indyk\Code\compare-page\compare.html" class="button">Compare Car</a>
+                </div>
+            </div>
+        </div>
+
+        <div class="swiper-button-next nav-btn"></div>
+        <div class="swiper-button-prev nav-btn"></div>
+        <div class="swiper-pagination"></div>
+    </section>
+
+    <!--swiper JS-->
+    <script src="swiper-bundle.min.js"></script>
+
+    <script>
+        var swiper = new Swiper(".mySwiper", {
+          slidesPerView: 1,
+          spaceBetween: 30,
+          loop: true,
+          pagination: {
+            el: ".swiper-pagination",
+            clickable: true,
+          },
+          navigation: {
+            nextEl: ".swiper-button-next",
+            prevEl: ".swiper-button-prev",
+          },
+        });
+      </script>
+</body>
+</html>

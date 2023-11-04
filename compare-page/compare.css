@@ -1,0 +1,73 @@
+*{
+    margin: 0;
+    padding: 0;
+    font-family: 'Poppins', sans-serif;
+    text-transform: capitalize;
+}
+
+
+.wrapper {
+    width: 100%;
+    height: 100vh;
+    background-image: linear-gradient(rgba(0,0,0,0.50), rgba(0,0,0,0.75)), url(https://www.hdcarwallpapers.com/walls/polestar_2_2020_4k_4-HD.jpg);
+    background-size: cover;
+    background-position: center;
+
+}
+
+
+.navbar {
+    height: 60px;
+    margin: auto;
+    padding: 35px 0;
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    border: #fff 1px;
+    border-style: none none solid none;
+    backdrop-filter: blur(20px);
+
+}
+
+.navbar img {
+    height: 150px;
+    width: auto;
+    cursor: pointer;
+    mix-blend-mode: multiply;
+    
+}
+
+.navbar ul li {
+    list-style: none;
+    display: inline-block;
+    margin: 0 20px;
+    
+}
+
+.navbar ul li a{
+    text-decoration: none;
+    color: #fff;
+    text-transform: uppercase;
+}
+
+button {
+    color: white;
+    background: none;
+    border: none;
+}
+
+button:hover {
+    color: #15babc;
+}
+
+td, th {
+    border: solid 1px white;
+    padding: 10px;
+}
+table {
+    margin: 10% auto auto auto;
+    color: #fff;
+    border-collapse: collapse;
+    border: 2px solid white;
+    backdrop-filter: blur(20px);
+}
